@@ -28,12 +28,13 @@ public class Coro implements ModInitializer {
 	// ON START MESSAGE
 	@Override
 	public void onInitialize() {
-		LOGGER.info("░█████╗░░█████╗░██████╗░░█████╗░\n" +
+		LOGGER.info("\n" +
+				"░█████╗░░█████╗░██████╗░░█████╗░\n" +
 				"██╔══██╗██╔══██╗██╔══██╗██╔══██╗\n" +
 				"██║░░╚═╝██║░░██║██████╔╝██║░░██║\n" +
 				"██║░░██╗██║░░██║██╔══██╗██║░░██║\n" +
 				"╚█████╔╝╚█████╔╝██║░░██║╚█████╔╝\n" +
-				"░╚════╝░░╚════╝░╚═╝░░╚═╝░╚════╝░");
-		LOGGER.info("A Oʀɪɢɪɴs Mᴏᴅ Aᴅᴅᴏɴ - has initialized.");
+				"░╚════╝░░╚════╝░╚═╝░░╚═╝░╚════╝░" + "\n" +
+				"A Oʀɪɢɪɴs Mᴏᴅ Aᴅᴅᴏɴ - has initialized." + "\n");
 	}
 }
