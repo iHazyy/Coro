@@ -28,7 +28,7 @@ public class Coro implements ModInitializer {
 	// ON START MESSAGE
 	@Override
 	public void onInitialize() {
-		LOGGER.info("\n" +
+		LOGGER.info("\n\n" +
 				"░█████╗░░█████╗░██████╗░░█████╗░\n" +
 				"██╔══██╗██╔══██╗██╔══██╗██╔══██╗\n" +
 				"██║░░╚═╝██║░░██║██████╔╝██║░░██║\n" +
