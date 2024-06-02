@@ -8,17 +8,17 @@ import znh.coro.item.CoroItems;
 import java.util.function.Supplier;
 
 public enum BlackStoneMaterial implements ToolMaterial {
-    BLACK_STONE_MATERIAL(5, 650, 4.5f, 3.5f,
-            25, () -> Ingredient.ofItems(CoroItems.BLACK_STONE_GEM));
+    BLACK_STONE_MATERIAL(6, 1950, 7.5f, 6.5f,
+            50, () -> Ingredient.ofItems(CoroItems.BLACK_STONE_GEM));
 
 
     BlackStoneMaterial(int miningLevel, int itemDurability, float miningSpeed, float attckDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
-        this.miningLevel = miningLevel;
-        this.itemDurability = itemDurability;
-        this.miningSpeed = miningSpeed;
-        this.attackDamage = attckDamage;
-        this.enchantability = enchantability;
-        this.repairIngredient = repairIngredient;
+//        this.getMiningLevel = miningLevel;
+//        this.itemDurability = itemDurability;
+//        this.miningSpeed = miningSpeed;
+//        this.attackDamage = attckDamage;
+//        this.enchantability = enchantability;
+//        this.repairIngredient = repairIngredient;
     }
 
     @Override

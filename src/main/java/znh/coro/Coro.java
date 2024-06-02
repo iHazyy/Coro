@@ -4,6 +4,9 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import znh.coro.item.CoroItemGroups;
+import znh.coro.item.CoroItems;
+
 /*
 
 ░█████╗░░█████╗░██████╗░░█████╗░
@@ -36,5 +39,9 @@ public class Coro implements ModInitializer {
 				"╚█████╔╝╚█████╔╝██║░░██║╚█████╔╝\n" +
 				"░╚════╝░░╚════╝░╚═╝░░╚═╝░╚════╝░" + "\n" +
 				"A Oʀɪɢɪɴs Mᴏᴅ Aᴅᴅᴏɴ - has initialized." + "\n");
+
+
+		CoroItems.RegisterCoro();
+		CoroItemGroups.RegisterCoro();
 	}
 }
