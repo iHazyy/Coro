@@ -1,5 +1,7 @@
 package znh.coro;
 
+import io.github.apace100.origins.Origins;
+import io.github.apace100.origins.power.OriginsPowerTypes;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;

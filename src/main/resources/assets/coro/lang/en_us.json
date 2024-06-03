@@ -1,5 +1,9 @@
 {
-  "itemgroup.coro": "Coro",
-  "item.coro.black_stone_gem": "Black Stone Gem",
-  "message.black_stone_gem.message_1": "Black Stone Gem Message"
+  "itemgroup.coro": "§eCoro",
+  "item.coro.black_stone_gem": "§eBlack Stone Gem",
+  "message.black_stone_gem.message_1": "§eBlack Stone Gem Message",
+
+
+  "tooltip.blank": "",
+  "tooltip.black_stone_gem": "§eWHAT IS BLACK GEM?"
 }

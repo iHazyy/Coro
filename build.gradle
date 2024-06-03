@@ -62,7 +62,7 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
-	
+	modImplementation "io.github.apace100:apoli:2.9.0"
 }
 
 processResources {
