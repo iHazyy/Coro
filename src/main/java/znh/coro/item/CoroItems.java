@@ -47,7 +47,10 @@ public class CoroItems {
         entries.add(BLACK_STONE_GEM);
     }
 
-
+//    ADD ITEM TO TOOLS TAB
+    private static void addItemsToToolsTabItemGroup(FabricItemGroupEntries entries) {
+        entries.add(BLACK_STONE_SWORD);
+    }
 
 //    Easy Method that can be called to register items more efficiently.
     public static Item registerItem(String name, Item item) {
@@ -60,6 +63,9 @@ public class CoroItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS)
                 .register(CoroItems::addItemsToIngredientTabItemGroup);
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS)
+                .register(CoroItems::addItemsToToolsTabItemGroup);
     }
 
 }

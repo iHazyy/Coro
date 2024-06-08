@@ -23,6 +23,14 @@ Curators:
 	-ZNH.Hazy
 
  */
+
+
+/*
+ Planned features:
+ 	- None yet I'm bad at this :P
+*/
+
+
 public class Coro implements ModInitializer {
 
 	// MOD ID
