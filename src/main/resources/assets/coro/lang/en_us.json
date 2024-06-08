@@ -5,5 +5,7 @@
 
 
   "tooltip.blank": "",
+  "item.coro.black_stone_sword": "§eBlack Stone Sword",
+  "tooltip.black_stone_sword": "§eDoes this sword have a black gem in it?",
   "tooltip.black_stone_gem": "§eWHAT IS BLACK GEM?"
 }

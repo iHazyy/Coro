@@ -19,6 +19,9 @@ public class CoroItemGroups {
                     .icon(() -> new ItemStack(CoroItems.BLACK_STONE_GEM)).entries(((displayContext, entries) -> {
                         // Items in here
                     entries.add(CoroItems.BLACK_STONE_GEM);
+                    entries.add(CoroItems.BLACK_STONE_SWORD);
+
+
 
                     })).build());
 

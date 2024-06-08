@@ -22,6 +22,7 @@ public class CoroModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(CoroItems.BLACK_STONE_GEM, Models.GENERATED);
+        itemModelGenerator.register(CoroItems.BLACK_STONE_SWORD, Models.HANDHELD);
 
     }
 }
